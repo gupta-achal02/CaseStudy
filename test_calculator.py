@@ -3,7 +3,7 @@ from calculator import Calculator
 
 def test_addition():
     calc = Calculator()
-    assert calc.execute('add', 10, 5) == 15
+    assert calc.execute('add', 15, 5) == 20
 
 def test_subtraction():
     calc = Calculator()
